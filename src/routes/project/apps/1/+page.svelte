@@ -20,7 +20,7 @@ todoList = todoList;
 function complete(index) {
 todoList[index].completed = !todoList[index].completed;
 }
-import Icon from '../../../../components/icon.svelte';
+import Icon from '../../../../components/Icon.svelte';
 </script>
 <main>
     <h1>My to-do list</h1>
